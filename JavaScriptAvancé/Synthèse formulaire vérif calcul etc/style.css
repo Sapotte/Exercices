@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+}
+label {
+    width: 30%;
+    margin-left: 1em;
+}
+input {
+    width: 25%;
+    height: 1.1em;
+    border-radius: 10px;
+    padding-left: 0.5em;
+}
+form {
+    margin-top: 2em;
+    width: 50%;
+    line-height: 2em;
+}
+
+input[type="checkbox"] {
+    width: 2%;
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+input[disabled] {
+    background-color: rgb(212, 209, 209);
+    width: fit-content;
+}
+

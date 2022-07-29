@@ -1,0 +1,19 @@
+{
+    "prefs": {
+        "duree": 2800,
+        "size": {"w": "800", "h": "532"},
+        "tIMG": 800,
+        "tTXT": 800,
+        "dossier": "images",
+        "commandes": true,
+        "vignettes": false,
+        "pause": true
+},
+
+"imgs": [
+    {"file": "automne.jpg", "text": "Texte image 1", "btn" : {"label": "En savoir plus", "lien": "https//www.cefii.fr"}, "style": "dark"},
+    {"file": "eiffel.jpg", "text": "Texte image 2", "btn" : {"label": "", "lien": ""}, "style": "lignt"},
+    {"file": "rome.jpg", "text": "Texte image 3", "btn" : {"label": "", "lien": ""}, "style": "dark"},
+    {"file": "taxi.jpg", "text": "Texte image 4", "btn" : {"label": "", "lien": ""}, "style": "dark"}
+]
+}

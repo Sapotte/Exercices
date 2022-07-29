@@ -1,0 +1,759 @@
+/* Général */
+
+h2 {
+    font-family: 'Lustria', serif;
+    color: #3B3A3A;
+}
+
+h3, p, table, small, input, textarea, option {
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3A3A;
+}
+
+.wrapper {
+    max-width: 80em;
+    margin: 0 auto;
+    border: 0.1em solid  #F6F1EE;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.fas {
+    color: #BF9A3C;
+}
+
+.flex {
+    display: flex;
+}
+
+h3, p {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3A3A;
+}
+
+/* Toutes pages */
+    /* Menu et Logo */
+    
+    #logoCefiigolf {
+        position: relative;
+        height: auto;
+    }
+ 
+    .burger {
+        display: none;
+    }
+
+    nav[class="flex"] {
+        margin: 1em auto;
+        margin-bottom: 0.5em solid #BF9A3C;
+    }
+
+    .menu {
+        margin-bottom: 0;
+        justify-content: space-around;
+        align-items: flex-end;
+        flex-grow: 4;
+        list-style-type: none; 
+        font-size: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .menu a{
+        color: #3B3A3A;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        z-index: 9999999;
+    }
+    
+    .menu a:hover {
+        color:#BF9A3C;
+    }
+    
+    .menu a:active {
+        color: #BF9A3C;
+        text-decoration: underline;
+    }
+
+    nav li{
+        position: relative;
+    }
+
+    .sousMenu {
+        max-height: 0px;
+        list-style: none;
+        overflow: hidden;  
+        position: absolute;
+        width: 100%;
+        z-index: 9999999;
+        background-color: white;
+        transition: 1s;
+    }
+    
+    nav li:hover .sousMenu {
+        max-height: 300px;
+        position: absolute;
+        width: 100%;
+        z-index: 99999999;
+        background-color: white;
+    }
+    
+    .sousMenu li::after {
+        content: "";
+        display: inline-block;
+        width: 85%;
+        vertical-align: middle;
+        border-bottom: 0.1px solid #BF9A3C;
+    }
+
+    /* Header */
+    header {
+        margin: 0 auto;
+        padding: 20% 10%;
+        color: white;
+        font-family: 'Lustria', serif;
+        font-size: 2em;
+        background-image: url(images/bandeau.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        border-top: 0.3em solid #BF9A3C;
+    }
+    
+    .blocs {
+        justify-content: space-between;
+        width: 85%; 
+        height: fit-content;
+        margin: 0 auto;
+        color: #3B3A3A;
+        flex-wrap: wrap;
+        border: 1px solid #F6F1EE;
+    }  
+    
+    .bloc {
+        width: 10em;
+        height: 10em;
+        padding: 5%;
+        margin: 1em auto;
+        flex-flow: column wrap;
+        background-color: white;
+        border: 0.1em solid #BDA672 ;
+        text-align: center;
+        transform: translateY(-60%)
+    }
+
+    .bloc::after {
+        content: "";
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        margin-bottom: 3em;
+        border-bottom: 2px solid #BDA672;
+     }
+
+    /* Footer */
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #3B3A3A;
+        border-top: 3px solid #BDA672;
+    }
+    
+    footer .flex {
+        width: 85%;
+        height: auto;
+        margin: 2em auto;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap ;
+    }
+    
+    footer .flex::after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: 1em auto;
+        vertical-align: middle;
+        border-bottom: 2px solid #FFFFFF;
+        align-self: bottom;
+    }
+    
+    footer .flex div {
+        text-align: center;
+    }
+    
+    footer a {
+        color: #FFFFFF;
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    footer p {
+        color: #FFFFFF;
+    }
+    
+    footer li {
+        list-style: none;
+    }
+    
+    footer .fas {
+        color: #FFFFFF;
+       
+    }
+
+    .mention {
+        text-align: center;
+        padding-bottom: 2em;
+        font-size: small;
+    }
+
+/* Index */
+     /* Articles principaux */
+     .mainSections {
+        margin: 0 auto;
+        width: 85%;
+        justify-content: space-between;
+        font-size: 100%;
+    }
+    
+    .section1 {
+        width: 65% ;
+        height: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .section1 div {
+        column-count: 2;
+        break-before: avoid;
+        justify-content: space-between;
+        padding: 3%;
+    }
+
+    .aLaUne {
+        width: 30%;
+        height: 100%;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .aLaUne figure {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .aLaUne img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .aLaUne figcaption {
+        width: fit-content;
+        height: fit-content;
+        padding: 2%;
+        font: bold 1.5rem 'Open Sans', sans-serif;
+        color: #F6F1EE;
+        background-color: #BF9A3C;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .section1 ul {
+        list-style-image: url(logo/drapeau-liste.png);
+        line-height: 2rem;
+    }
+    .section1 a {
+        color: #3B3A3A;
+        font-family: 'Open-sans', sans-serif;
+    }
+    
+    .button {
+        width: 10%;
+        background-color: #BF9A3C;
+        border: 1px solid #BF9A3C;
+        padding: 3%;
+        color: #F6F1EE; 
+        font: 1em 'Open Sans', sans-serif;    
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    .button::after {
+        content: "\02192";
+        margin-left: 1.5em;
+        font: bold 2em 'Open Sans', sans-serif;
+    }
+    
+    .mainSections h2::after {
+       content: "";
+       display: inline-block;
+       width: 100%;
+       vertical-align: middle;  
+       border-bottom: 2px solid #BDA672;
+    }
+
+    /* Vidéo et Newsletter */
+    .video {
+        width:100%;
+        height: auto;
+        margin: 1em auto;
+    }
+    
+    .video div {
+        max-width: 80em;
+        margin: 0 auto;
+    }
+    
+    .video h2 {
+        max-width: 25em;
+        margin: 1em xauto;
+    }
+    
+    .video iframe {
+        aspect-ratio: 16/9;
+        width: 100%;
+        height: auto;
+    }
+    
+    .video h2::after {
+        content: "";
+        display: block;
+        width: 70%;
+        margin: 1em auto 1em 0;
+        border-bottom: 2px solid #BDA672;
+    }
+    
+    .newsletter::before,
+    .newsletter::after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        border-bottom: 2px solid #BDA672;
+    }
+    
+    .newsletter {
+        width: 85%;
+        height: 85em;
+        margin : 2em auto;
+        background-image: url(images/golfeur.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    form {
+        justify-content: space-between;
+        font-family: 'Open Sans', sans-serif;
+        color: #3B3A3A;
+        width: 65%;
+        margin: 1em auto;
+        align-items: center;
+    }
+    
+    input[type="email"] {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        border-color: #BF9A3C;
+    }
+    
+    input[type="submit"] {
+        width: 20%;
+        background-color: #BF9A3C;
+        border: 1px solid #BF9A3C;
+        padding: 1%;
+        color: #F6F1EE; 
+        font: bold 1em 'Open Sans', sans-serif;    
+        border-radius: 10%;
+        margin: 1em 1em;
+    }
+    
+    i[class*="envelope"] {
+        color: #BF9A3C;
+        font-size: 3em;
+    }
+
+/* Tarifs */
+    /* Tableau */
+    .tarifs {
+        width: 85%;
+        margin: 0 auto;
+        border-bottom: 2px solid #BF9A3C;
+        padding-bottom: 3em;
+    }
+    
+    .tarifs h2 {
+       padding-bottom: 1em;
+       border-bottom: 2px solid #BF9A3C;
+       width: 30%;
+    }
+    
+    .tarifs table {
+        width: 100%;
+        line-height: 2em;
+        margin-bottom: 0.5em;
+        border-color: #BDA672;
+        border-collapse: collapse;
+        empty-cells: hide;
+        table-layout: fixed;
+        }
+    
+    table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .impair {
+        background-color: #F6F1EE;
+    }
+
+    /* Contact */
+    .contactMap {
+        width: 85%;
+        height: auto;
+        margin: 2em auto;
+        justify-content: space-between; 
+        border-bottom: 2px solid #BF9A3C; 
+    }
+    
+    .contactMap h2 {
+        padding-bottom: 1em;
+        border-bottom: 2px solid #BF9A3C;
+        width: 90%;
+     }
+    
+     .contactMap form {
+         width: 100%;
+         margin-left: 0;
+     }
+    
+     .level {
+         display: inline-block;
+         width: 100%;
+     }
+    
+     .contactMap form input,
+     .contactMap form select,
+     .contactMap form textarea {
+         border: none;
+         padding: 3%;
+         background-color: #F6F1EE;
+     }
+    
+     .contactMap input[type="submit"] {
+         width: 20%;
+         margin-left: 80%;
+         font-size: 0.8em;
+         padding: 0.5em;
+         border: 1px solid #BF9A3C;
+         border-radius: 5%;
+         background-color: #BF9A3C;
+         color: #FFFFFF;
+         text-align: center;
+     }
+    
+     .map {
+         width: 50%;
+         height: auto;
+         align-self: center;
+         margin-bottom: 2em;
+     }
+
+     /* FAQ */
+     .faq {
+        width: 85%;
+        margin: 0 auto;
+    }
+   
+    .faq h2 {
+        width: 40%;
+        border-bottom: 2px solid #BF9A3C;
+        padding-bottom: 1em;
+    }
+   
+    .faq ul{
+        padding: 0;
+    }
+   
+    .faq li{
+        list-style: none;
+        padding: 1em;
+        margin: 1em 0;
+        background-color: #F6F1EE;
+        align-self: flex-start;
+    }
+   
+    .faq::after{
+       content: "";
+       display: inline-block;
+       width: 100%;
+       margin: 1em auto;
+       vertical-align: middle;
+       border-bottom: 2px solid #BF9A3C;
+       align-self: bottom;
+    }
+
+    .faq p {
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s linear;
+    }
+    
+    .faq h3:hover + p {
+        max-height: 90px;
+    }
+   
+    h3[class="flex"] {
+        justify-content: space-between;
+    }
+   
+   
+    .partners{
+        justify-content: space-between;
+        width: 100%;
+        margin: 2em auto;
+    }
+   
+   .partners img {
+       width: 20%;
+       height: auto;
+       background-color: #BF9A3C;
+       color: #FFFFFF;
+   }
+
+@media screen and (min-width: 769px) {
+    @keyframes balle_de_golf {
+        0% {transform: translate(2000%, -20%); animation-timing-function: linear;}
+        10% {transform: translate(1900%, -10%); animation-timing-function: cubic-bezier(.71,.32,.99,.74);}
+        20% {transform: translate(1700%, 25%); animation-timing-function: cubic-bezier(.19,.58,.81,.87);}
+        30% {transform: translate(1500%, -10%); animation-timing-function: linear;}
+        40% {transform: translate(1400%, -20%); animation-timing-function: linear;}
+        50% {transform: translate(1300%, -10%) ; animation-timing-function: cubic-bezier(.71,.32,.99,.74);}
+        60%{transform: translate(1100%, 25%); animation-timing-function: cubic-bezier(.19,.58,.81,.87);}
+        70% {transform: translate(900%, -10%); animation-timing-function: linear;}
+        80%{transform: translate(800%, -20%); animation-timing-function: linear;}
+        90% {transform: translate(700%, -10%); animation-timing-function: cubic-bezier(.71,.32,.99,.74);}
+        100%{transform: translate(415%, 8%); animation-timing-function: cubic-bezier(.19,.58,.81,.87);}
+    }
+    
+    @-webkit-keyframes balle_de_golf {
+        0% {transform: translate(2200%, -15%); animation-timing-function: ease-in;}
+        10% {transform: translate(2100%, -10%); animation-timing-function: ease-out;}
+        20% {transform: translate(1900%, 15%); animation-timing-function: ease-in;}
+        30% {transform: translate(1700%, -10%); animation-timing-function: ease-out;}
+        40% {transform: translate(1600%, -15%); animation-timing-function: ease-in;}
+        50% {transform: translate(1500%, -10%) ; animation-timing-function: ease-out;}
+        60%{transform: translate(1200%, 15%); animation-timing-function: ease-in;}
+        70% {transform: translate(900%, -10%); animation-timing-function: ease-out;}
+        80%{transform: translate(800%, -15%); animation-timing-function: ease-in;}
+        90% {transform: translate(700%, -10%); animation-timing-function: ease-out;}
+        100%{transform: translate(0%, 0%); animation-timing-function: ease-in;}
+    }
+    
+    .balle {
+        display: inline-block;
+        position: absolute;
+        width: 15%;
+        z-index: 9999;
+        animation: balle_de_golf 1.5s forwards;
+        -webkit-animation: balle_de_golf 1.5s forwards;
+    }
+    
+    #logoCefii {
+        position: relative;
+        height: auto;
+        animation: logo_Cefii 0s 1.5s forwards;
+        -webkit-animation: logo_Cefii 0s 1.5s forwards;
+    }
+
+    #logoCefiigolf {
+        width: 0%;
+        animation: logo_Cefii_golf 0s 1.5s forwards;
+        -webkit-animation: logo_Cefii_golf 0s 1.5s forwards;
+    }
+    
+    @keyframes logo_Cefii {
+        0% {width: 41%;}
+        100% {width: 0;}   
+    }
+    
+    @-webkit-keyframes logo_Cefii {
+        0% {width: 41%;}
+        100% {width: 0;}   
+    }
+ 
+    @keyframes logo_Cefii_golf {
+        0% {width: 0;}
+        100% {width: 27.5%;}
+    }
+    
+    @-webkit-keyframes logo_Cefii_golf {
+        0% {width: 0;}
+        100% {width: 27.5%;}
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Logo et Menu */
+    #logoCefii, .balle {
+        display: none;
+    }
+
+    #logoCefiiballe {
+        width: 30%;
+        height: auto;
+        margin: auto auto auto 0;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 10%;
+        font-size: 400%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu li {
+        width: 100%;
+        padding: 2%;
+        height: 1.5em;
+        display: block;
+    }
+
+    .burger:hover+ul {
+        position: absolute;
+        display: block;
+        width: 100%;
+        margin: 7em 0;
+        z-index: 999999;
+        background-color: #FFFFFF;
+    }
+
+    /* Sections principales  */
+    .mainSections {
+        flex-direction: column;
+        margin: 0 auto 3em auto;
+    }
+
+    .section1, .aLaUne {
+        width: 100%;
+    }
+
+    .aLaUne div {
+        column-count: 2;
+    }
+
+    .aLaUne img {
+        height: 20em;
+        margin-left: 0;
+    }
+
+    .newsletter form{
+        width: 85%;
+        justify-content: space-evenly;
+        font-size: small;
+    }
+
+    .newsletter {
+        height: 40em;
+    }
+
+    /* Page Tarifs */
+    .contactMap {
+        display: block;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .partners { display: none;}
+
+}
+
+@media screen and (max-width: 425px) {
+    .wrapper {
+        max-width: 424px;
+        min-width: 320px;
+    }
+    .section1 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 img {
+        width: 80%;
+        height: auto;
+        margin: 1em auto;
+        order: 3;
+    }
+
+    .section1 h2{
+        order: 1;
+    }
+
+    .section1 p, .section1 nav {
+        order: 2;
+    }  
+
+    .aLaUne div {
+        column-count: 1;
+    }
+
+    .aLaUne img {
+        width: 100%;
+    }
+    .newsletter {
+        height: 30em;
+    }
+    .newsletter form i {
+        display: none;
+    }
+
+    .newsletter form {
+        width: 65%;
+        margin: 1em auto;
+        flex-direction: column;
+        line-height: 3em;
+        align-items: flex-end;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+    }
+
+    footer div[class="flex"]{
+        flex-direction: column;
+        width: 100%;
+    }
+
+     footer nav {
+         display: none;
+     }
+
+     /*  Page tarifs */
+     .map iframe {
+         height: 13em
+     }
+
+     .contactMap  input[type="submit"] {
+         width: 30%;
+     }
+}

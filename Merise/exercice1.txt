@@ -1,0 +1,80 @@
+Dictionnaire de données 
+
+Nom : nom_lecteur
+Code : NOM_LECTEUR
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : adresse_lecteur
+Code : ADRESSE_LECTEUR
+Type : VARCHAR
+Taille : 400,
+Commentaire : 
+
+Nom : date_emprunt
+Code : DATE_EMPRUNT
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : date_retour
+Code : DATE_RETOUR
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : titre
+Code : TITRE
+Type : VARCHAR
+Taille : 200,
+Commentaire : 
+
+Nom : auteur
+Code : AUTEUR
+Type : VARCHAR
+Taille : 200,
+Commentaire : 
+
+Nom : genre
+Code : GENRE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : localisation
+Code : LOCALISATION
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : capacite-livres
+Code : CAPACITE-LIVRES
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : numero_lecteur
+Code : NUMERO_LECTEUR
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : cote
+Code : COTE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : numero_etagere
+Code : NUMERO_ETAGERE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : numero_rayon
+Code : NUMERO_RAYON
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+

@@ -1,0 +1,24 @@
+L'application n'est absolument pas fonctionnelle.
+
+L'idée était de pouvoir rechercher les utilisateurs dans une liste afin d'accéder à leur fiche ou d'ajouter un utilisateur. Même chose pour les livres.
+Fiche utilisateur : 
+	- informations avec possibilité de modifier ou de supprimer.
+	- Liste des livres empruntés avec la date d'emprunt (rouge si durée d'emprunt > 3 semaines) avec bouton 'restituer' pour chacun (supprimer idUser et dateEmprunt pour le livre)
+	- Bouton 'emprunter' : accède a la liste des livres dont idUser==null => ajoute idUser à la BDD + date d'emprunt.
+Fiche livre : 
+	- infos du livre
+	- lien pour fiche de l'emprunteur si existant / date d'emprunt en rouge si durée > 3 semaines
+	- possibilité d'ajouter ou supprimer un livre.
+
+
+
+
+Je ne suis pas certaine que le MCD soit bien fait ou du moins complet.
+UML et CRUD non faits faute de temps
+
+Application à peine commencée.
+
+Je n'ai pas arrêté de changer d'avis sur la meilleure façon de faire donc finalement il n'y a rien...
+J'étais bloquée pour faire les barres de recherche par exemple.
+J'ai finit par ne plus m'y retrouver du tout et par ne plus savoir quoi faire.
+

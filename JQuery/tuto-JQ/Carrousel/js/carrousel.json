@@ -1,0 +1,16 @@
+{
+    "prefs":{
+        "dossier": "images",
+        "auto": true,
+        "time": 2000,
+        "pausedOnHover": true
+    },
+    "imgs":[
+        {"file" : "tortue.jpg", "text" : "Tortue de mer"},
+        {"file" : "fleur.jpg", "text" : "Fleur"},
+        {"file" : "fraise.jpg", "text" : "Miam"},
+        {"file" : "soir.jpg", "text" : "Bonne nuit"},
+        {"file" : "plage.jpg", "text" : "C'est les vacances !"},
+        {"file" : "eiffel.jpg", "text" : "Bienvenue à Paris"}
+    ]
+}

@@ -1,0 +1,53 @@
+body {
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#conteneur {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: grey;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#nuages {
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/nuage.png);
+}
+
+#ville {
+    position: absolute;
+    margin: 0 auto;
+    width: 1000px;
+    height: 130px;
+    padding: 0;
+    background-image: url(img/ville.png);
+    background-position: 0px;
+    top: 180px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#avion1 {
+    position: relative;
+    left : -200px;
+    top: 60px;
+}
+
+#avion2 {
+    position: relative;
+    left: 1000px;
+    top: -250px;
+}

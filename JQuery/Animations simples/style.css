@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    background-color: gray;
+}
+
+#conteneur {
+    display: flex;
+    padding: 2em;
+    margin: 0 auto;
+    width: 1500px;
+    height: 300px;
+    overflow: hidden;
+    align-items: baseline;
+    background-color: white;
+}
+
+h1 {
+    display: none;
+    font: normal 2em sans-serif;
+}
+
+#rose, #bleu {
+    position: relative;
+    left: -200px;
+    bottom: -500px;
+    margin: 0 0.3em;
+}
+
+#vert, #gris {
+    position: relative;
+    left: 1400px ;
+}

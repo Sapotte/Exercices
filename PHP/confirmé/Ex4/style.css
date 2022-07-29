@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+}
+div.form-group {
+    width: 100%;
+    margin: 0 auto 1em auto;
+}
+
+label {
+    margin: 1em
+}
+
+button {
+    width: 100%;
+}
+
+fieldset{
+    padding: 2em;
+}

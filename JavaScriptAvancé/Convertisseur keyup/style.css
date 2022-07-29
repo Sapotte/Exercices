@@ -1,0 +1,18 @@
+form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+form p {
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+

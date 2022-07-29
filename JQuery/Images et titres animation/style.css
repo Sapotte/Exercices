@@ -1,0 +1,39 @@
+#conteneur {
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    background-repeat: no-repeat;
+    width: 20%;
+    background-size: cover;
+}
+
+#img1 {
+    background-image: url(images/img1.jpg);
+}
+
+#img2 {
+    background-image: url(images/img2.jpg);
+}
+
+#img3 {
+    background-image: url(images/img3.jpg);
+}
+
+#img4 {
+    background-image: url(images/img4.jpg);
+}
+
+.img p {
+    position: relative;
+    top: 150px;
+    color: white;
+    margin-left: 0.5em;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 0;
+}

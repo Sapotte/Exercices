@@ -1,0 +1,50 @@
+.wrapper {
+    max-width: 1500px;
+    margin: 1px auto;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 2px auto;
+    text-align: center;
+}
+
+li {
+    margin: 1em auto;
+    padding: 0;
+}
+
+label {
+    width: 20%;
+}
+
+input {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    width: 80%;
+    border: grey solid 1px;
+    text-align: center;
+}
+
+tr:first {
+    background-color: rgb(36, 35, 35);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button, a, i {
+    cursor: pointer;
+    margin-left: 1em;
+}

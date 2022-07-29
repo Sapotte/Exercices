@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 17</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire de réservation :</h1>
+    <small>(*=champ obligatoire)</small>
+    <form id="myForm" novalidate>
+        <div class="flex">
+            <label class="requis">Nom :*</label>
+            <input type="text" id="nom" placeholder="Votre nom ici" required>
+        </div>
+        <div class="flex">
+           <label>Prénom :</label>
+            <input type="text" id="prenom" placeholder="Votre prénom ici">
+        </div>
+        <div class="flex">
+            <label>Téléphone :</label>
+            <input type="text" placeholder="0123456789">
+        </div>
+        <div class="flex">
+            <label class="requis">Email :*</label>
+            <input type="email" id="mail" placeholder="xxx@yyyy.zz" required>
+        </div>
+        <div class="flex">
+            <label>Votre réservation est pour :</label>
+            <div>
+                <p>
+                    <select class="sel" id="sel1">
+                        <option value="miJour">Demi-journée</option>
+                        <option value="jour">Journée</option>
+                        <option value="repas">Repas</option>
+                    </select>
+                    <input class="sel" id="nbr1" type="number" placeholder="Qté" min="0">
+                    <input  id="sTotHT1" placeholder="Sous-total HT" disabled class="sousTotHT">
+                </p>
+                <p>
+                    <select class="sel" id="sel2">
+                        <option value="jour">Journée</option>
+                        <option value="miJour">Demi-journée</option>
+                        <option value="repas">Repas</option>
+                    </select>
+                    <input class="sel" id="nbr2" type="number" placeholder="Qté" min="0">
+                    <input placeholder="Sous-total HT" disabled class="sousTotHT" id="sTotHT2" >
+                </p>
+                <p>
+                    <select class="sel" id="sel3">
+                        <option value="repas">Repas</option>
+                        <option value="jour">Journée</option>
+                        <option value="miJour">Demi-journée</option>
+                    </select>
+                    <input class="sel" id="nbr3" type="number" placeholder="Qté" min="0">
+                    <input placeholder="Sous-total HT" disabled class="sousTotHT" id="sTotHT3">
+                </p>
+            </div>
+        </div>
+        <div class="flex">
+            <label>Sous-Total HT :</label>
+            <input id="stotHT" class="sousTotHT" placeholder="Sous-total HT" disabled>
+            <label for="totHT">euros</label>
+        </div>
+        <div class="flex">
+            <label>Total TTC (TVA 20%):</label>
+            <input id="totTTC" class="totTTC" placeholder="Total TTC" disabled>
+            <label for="totTTC">euros</label>
+        </div>
+        <div class="flex">
+            <label>J'accepte les conditions générales *</label>
+            <input type="checkbox" class="agree" id="agree" required>
+        </div>
+        <div class="flex">
+            <button id="verif">Vérifier avant envoi</button>
+            <button id="print">Imprimer</button>
+            <button type="reset" id="reset">Réinitialiser</button>
+            <button type="submit" id="envoi">Envoyer ma commande</button>
+        </div>
+    </form>   
+</body>
+</html>

@@ -1,0 +1,44 @@
+form {
+    margin: 0 auto;
+}
+
+fieldset {
+    border-radius: 20px;
+    padding: 2em;
+    width: 900px;
+    text-align: justify;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    line-height: 2.5em;
+}
+
+ label {
+     width: 20%;
+     text-align: right;
+     margin-right: 1em;
+
+ }
+
+input {
+    width: 30%;
+    height: 1.5em;
+    border-radius: 10px;
+    margin-right: auto;
+    align-self: center;
+
+}
+
+span {
+    font-size: 0.8em;
+    color: red;
+    margin-left: 2em;
+}
+button {
+    width: 10%;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 0.5em 60% 0 30%;
+}

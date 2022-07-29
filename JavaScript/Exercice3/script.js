@@ -1,0 +1,1 @@
+confirm("ok=homme  /  annuler=femme");

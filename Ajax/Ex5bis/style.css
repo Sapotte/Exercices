@@ -1,0 +1,16 @@
+form {
+    width: 50%;
+    margin: 2em auto;
+}
+
+.erreur {
+    color: red;
+}
+
+.succes {
+    color: green;
+}
+
+#close {
+    margin-left: 2em;
+}

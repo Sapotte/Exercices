@@ -1,0 +1,69 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font: italic bold 1.5em "Amiri", serif;
+    margin-bottom: 0;
+}
+
+span {
+    display: inline;
+    position: relative;
+    bottom: 2em;
+    left: 30em;
+    margin: 0;
+    cursor: pointer;
+}
+
+p{
+    margin-top: -1em;
+    padding: 0;
+    display: none;
+    overflow: hidden;
+}
+
+.para {
+    border-bottom: 2px solid purple;
+}
+
+button {
+    width: 15%;
+    margin-top: 3em;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+#popup {
+    display: none;
+    position: sticky;
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    background: linear-gradient(to left top, purple, black);
+    border-radius: 5px;
+    left: 40%;
+    bottom: 10%;
+}
+
+#closePopup {
+    position: relative;
+    margin-top: 0;
+    margin-left: 205px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.2em;
+    color: black;
+    background-color: white;
+}
+
+#popup div {
+    font: bold 1.5em "Caladea", serif;
+    color: white;
+    margin-left: 1em;
+}

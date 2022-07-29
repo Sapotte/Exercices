@@ -1,0 +1,235 @@
+/* Général */
+.flex {
+    display: flex;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #131313;
+    color: #fff;
+}
+
+#conteneur {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img, iframe, video {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/* scroll auto */
+    #scrollAuto {
+        display: none;
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+        width: 60px;
+        height: auto;
+        background-color: #fff;
+        color: #303030;
+        border: 1px solid #131313;
+        border-radius: 100%;
+        font-size: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+/* header */
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    justify-content: space-between;
+}
+nav {
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul{
+    flex-grow: 4;
+    vertical-align: middle;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.oreille {
+    width: 10%;
+}
+
+.droite {
+    transform: scaleX(-1);
+}
+
+/* articles */
+#articles {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #303030;
+}
+
+.article {
+    padding: 0.7em;
+}
+
+/* section Artistes */
+#artistes {
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    color: #131313;
+    margin: 0 auto;
+}
+
+.artistes {
+    width: 90%;
+    justify-content: center;
+    margin: 0.5em auto;
+}
+
+.artistes figure {
+    padding: 0;
+    margin: 0;
+}
+
+.artistes figcaption {
+    text-align: center;
+}
+
+/* MapVidéo */
+#mapVideo {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Footer */
+#infos {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 1em;
+}
+
+#reseaux {
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logos {
+    font-size: 2em;
+}
+
+#mail {
+    width: 60%;
+}
+
+form {
+    width: 90%;
+    color: #fff;
+    justify-content: stretch;
+    vertical-align: center;
+    align-items: center;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    background-color: #303030;
+    border: none;
+    padding: 5px;
+    color: #6d6969;
+    margin: 0.5em 1em;
+}
+
+span {
+    color: #ff0000;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 50%;
+}
+
+button {
+    border: 0px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#mentionsLegales {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+}
+
+#mentionsLegales ul {
+    width: 60%;
+   justify-content: space-around;
+}
+
+#mentionsLegales div {
+    padding: 0.5em;
+}
+
+@media screen and (max-width : 768px) {
+    .column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    button {
+        width: 15%;
+    }
+
+    input {
+        width: 100%;
+        height: 2em;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 769px) {
+   input {
+        width: 40%;
+        height: 3em;
+   }
+}
+
+
+
+

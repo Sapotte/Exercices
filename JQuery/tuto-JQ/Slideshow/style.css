@@ -1,0 +1,102 @@
+#slideshow {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#slideshow img{
+    max-width: 100%;
+    height: auto;
+}
+
+#slides {
+    display: flex;
+}
+
+#slides .item{
+    position: relative;
+}
+
+#slides button{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    font-size: 1em;
+    border-radius: 0.25em;
+    border: none;
+    background-color: lightgrey;
+    padding: 0.25em 1em;
+    cursor: pointer;
+}
+
+#slides .item p{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    margin: 0;
+    font-size: 2em;
+    padding: 0.25em 1em;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+#slides .item p.dark {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#slides .item p.light{
+    color: #000;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.fleches{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}   
+
+.droite {
+    right: 5px;
+    border-left: 20px solid rgba(255,255,255,.6);
+}
+
+.gauche {
+    left: 5px;
+    border-right: 20px solid rgba(255,255,255,.6);
+}
+
+#puces{
+    overflow: hidden;
+    position: absolute;
+    display: -webkit-box;
+    display: flex;
+    bottom: 1.25em;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+#puces .vignette{
+    width: 60px;
+    height: 40px;
+    margin: 0;
+    display: block;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#puces .puce {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.6);
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+}

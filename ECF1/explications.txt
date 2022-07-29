@@ -1,0 +1,10 @@
+La mise en page CSS est faite en gros. 
+Pour le responsive, il n'y a qu'un seul point de rupture (tablette à 780px) car j'avais l'impression que cela fonctionnait assez bien pour le mobile aussi.
+
+Ok pour la validation de l'email avec le message d'erreur.
+
+Pour la flèche apparaissant au scroll je n'ai pas réussi à ce qu'elle disparaisse lors du click sur celle-ci (enfin elle disparaît pour réapparaître juste après, sûrement à cause du scroll automatique)
+
+Je n'ai pas du tout réussi à mettre en place le plugin pour le slideshow. 
+
+Je n'ai pas eu le temps de faire le zoning de la version tablette.

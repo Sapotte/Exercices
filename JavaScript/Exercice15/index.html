@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 15</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="mtHT">Entrer le montant HT</label>
+            <input id="mtHT" type="text" name="mtHT" required>
+        </p>
+        <p>
+            <label for="TVA" >Choissisez le taux de TVA</label>
+            <select name="TVA" id="TVA" required>
+                <option value="">montant TVA</option>
+                <option value="7">7%</option>
+                <option value="20">20%</option>
+            </select>
+        </p>
+        <button id="calc" type="submit">Calculer TTC</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

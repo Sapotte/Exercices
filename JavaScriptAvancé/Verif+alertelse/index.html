@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calcul de votre IMC</h1>
+    <form id="formImc" action="" novalidate>
+        <p>
+            <label>Votre taille (en mètres)</label>
+            <input type="number" step="0.01" name="taille" id="taille" placeholder="ex: 1.65" required>
+        </p>
+        <p>
+            <label>Votre poids (en kg)</label>
+            <input type="number" name="poids" id="poids" placeholder="ex: 60" required>
+        </p>
+        <p><input id="envoi" type="submit" value="Calculez votre IMC"></p>
+    </form>
+</body>
+</html>

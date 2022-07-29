@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salle de concert</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20ff68d117.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <button id="scrollAuto"><i class="fa-solid fa-arrow-up"></i></button>
+    <div id="conteneur">
+        <header id="topPage" class="flex">
+                <div class="oreille gauche"><img cla src="images/logo.jpg" alt=""></div>
+                <nav class="flex">
+                    <ul class="flex column">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Programmation</a></li>
+                        <li><a href="#">Evénements</a></li>
+                        <li><a href="#">Billeterie</a></li>
+                        <li><a href="#">Contac</a>t</li>
+                    </ul>    
+                </nav>
+                <div class="oreille droite"><img src="images/logo.jpg" alt=""></div>
+        </header>
+        <main>
+            <div id="slideShow">
+                <ul id="slippry-demo">
+                    <li>
+                        <a href="#slide1"><img src="images/slide1.jpg" alt="21/11/2019"></a>
+                    </li>
+                    <li>
+                        <a href="#slide2"><img src="images/slide2.jpg"  alt="22/11/2019"></a>
+                    </li>
+                    <li>
+                        <a href="#slide3"><img src="images/slide3.jpg" alt="23/11/2019"></a>
+                    </li>
+                    </ul>
+            </div>  
+            <div id="artistes">
+                <h2>A NE SURTOUT PAS MANQUER</h2>
+                <div class="flex artistes column">
+                    <figure>
+                        <img src="images/artiste1.jpg" alt="artiste1">
+                        <figcaption>LALALALA</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/artiste2.jpg" alt="artiste2">
+                        <figcaption>LILILILI</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/artiste3.jpg" alt="artiste3">
+                        <figcaption>LULULULU</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/artiste4.jpg" alt="artiste4">
+                        <figcaption>LOULOULOULOU</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div id="articles">
+                <section  class="flex article column">
+                    <article>
+                        <h3>Actu 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nesciunt cupiditate fugit libero, a sint earum ratione placeat. Ducimus iste laudantium necessitatibus accusamus ipsa facere numquam quos! Quas, delectus ab.</p>
+                    </article>
+                    <article>
+                        <h3>Actu 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nesciunt cupiditate fugit libero, a sint earum ratione placeat. Ducimus iste laudantium necessitatibus accusamus ipsa facere numquam quos! Quas, delectus ab.</p>
+                    </article>
+                    <article>
+                        <h3>Actu 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nesciunt cupiditate fugit libero, a sint earum ratione placeat. Ducimus iste laudantium necessitatibus accusamus ipsa facere numquam quos! Quas, delectus ab.</p>
+                    </article>
+                    <article>
+                        <h3>Actu 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nesciunt cupiditate fugit libero, a sint earum ratione placeat. Ducimus iste laudantium necessitatibus accusamus ipsa facere numquam quos! Quas, delectus ab.</p>
+                    </article>
+                </section>
+                <section id="mapVideo" class="flex column">
+                    <div>
+                        <h2>NOUS TROUVER</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467099.5960726852!2d2.262234223312396!3d48.5431366927208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66feaac6cf0bd%3A0x94c1fc2d9a91f965!2sSalle%20Pleyel!5e0!3m2!1sfr!2sfr!4v1647944256272!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div>
+                        <h2>EN LIVE</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/a_FPOTyL7h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="flex" id="infos">
+                <section class="flex" id="reseaux">
+                    <p>Partagez vos meilleurs moments</p>
+                    <div id="logos">
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" target="_blank">    <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </section>
+                <section id="mail">
+                    <form class="flex column" action="">
+                        <label for="mail">Restez informés sur les actualités</label>
+                        <input id="email" type="text" name="mail" placeholder="Renseignez votre e-mail">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </section>
+            </div>
+            <div id="mentionsLegales" class="flex">
+                    <ul class="flex column">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">CGV</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                    </ul>
+                <div>&copy; Copyright 2019 - Tous droits réservés</div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

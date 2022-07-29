@@ -1,0 +1,18 @@
+<form action="index.php?page={page}&id={id}" method="post">
+    <fieldset>
+        <legend>{titre}</legend>
+        <div class="form-group">
+            <label for="param0">Nom :</label>
+            <input type="text" id="param0" name="param0" class="form-control form-control-sm" value ="{param0}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param1">Prénom : </label>
+            <input type="text" id="param1" name="param1" class="form-control form-control-sm" value="{param1}" {disabled}>
+        </div>
+        <div class="form-group">
+            <label for="param2">Ville : </label>
+            <input type="text" id="param2" name="param2" class="form-control form-control-sm" value="{param2}" {disabled}>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mt-3">{bouton}</button>
+    </fieldset>
+</form>
